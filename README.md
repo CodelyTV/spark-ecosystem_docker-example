@@ -54,7 +54,7 @@ docker build -t my-spark-cluster:3.5.0 .
 Start the cluster using Docker Compose:
 
 ```bash
-docker-compose up
+docker compose up
 ```
 
 This command will start all the services defined in the `docker-compose.yml` file.
